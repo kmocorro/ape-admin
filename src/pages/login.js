@@ -64,7 +64,7 @@ export default function Index() {
     headers.append('Content-Type', 'application/json');
     //headers.append('Authorization', '123456789');
 
-    let response = await fetch('http://localhost:8080/api/create-admin', {
+    let response = await fetch('http://meswebspf409.sunpowercorp.com:8080/api/create-admin', {
       headers: headers,
       method: 'POST',
       body: JSON.stringify({
@@ -84,7 +84,7 @@ export default function Index() {
     headers.append('Content-Type', 'application/json');
     //headers.append('Authorization', '123456789');
 
-    let response = await fetch('http://localhost:8080/api/admin-login', {
+    let response = await fetch('http://meswebspf409.sunpowercorp.com:8080/api/admin-login', {
       headers: headers,
       method: 'POST',
       body: JSON.stringify({

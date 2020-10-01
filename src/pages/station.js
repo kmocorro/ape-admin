@@ -60,7 +60,7 @@ export default function Index() {
     headers.append('Content-Type', 'application/json');
     //headers.append('Authorization', isToken);
 
-    let response = await fetch('http://localhost:8080/admin/employee', {
+    let response = await fetch('http://meswebspf409.sunpowercorp.com:8080/admin/employee', {
       headers: headers,
       method: 'POST',
       body: JSON.stringify({
@@ -122,7 +122,7 @@ export default function Index() {
       headers.append('Content-Type', 'application/json');
       //headers.append('Authorization', isToken);
 
-      let response = await fetch('http://localhost:8080/api/station', {
+      let response = await fetch('http://meswebspf409.sunpowercorp.com:8080/api/station', {
         headers: headers,
         method: 'POST',
         body: JSON.stringify({
