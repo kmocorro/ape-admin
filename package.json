@@ -18,7 +18,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve --port $PORT",
+    "serve": "gatsby serve --port $PORT --host $HOST",
     "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
   }
 }
