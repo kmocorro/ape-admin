@@ -78,8 +78,8 @@ export default function Index() {
   }
 
   /// setttttttttttttttt
-  const phase1_auto_checked = [1,2,3,5,7];
-  const phase2_auto_checked = [12,13,14,15];
+  const phase1_auto_checked = [1,2,3,4,7,8];
+  const phase2_auto_checked = [9,10,11,12, 13];
 
   const [checked, setChecked] = useState(phase1_auto_checked);
   const [toggleOpenDialogFlow, setOpenToggleDialogFlow] = useState(false);
@@ -184,7 +184,7 @@ export default function Index() {
             ):(
               <>
               <SetEmployeeFlow handleBackTohome={handleBackTohome} employeeData={employeeData} checked={checked} handleToggle={handleToggle} handleOpenSetEmployeeFlowDialogBox={handleOpenSetEmployeeFlowDialogBox} handleCloseSetEmployeeFlowDialogBox={handleCloseSetEmployeeFlowDialogBox} toggleOpenDialogFlow={toggleOpenDialogFlow}  handleSubmitEmployeeFlow={handleSubmitEmployeeFlow} employee_flow={employee_flow} />
-              <Snackbar open={openSetEmployeeFlowSuccess} autoHideDuration={3000} onClose={handleCloseSetEmployeeFlowSuccess} anchorOrigin={{
+              <Snackbar open={openSetEmployeeFlowSuccess} autoHideDuration={2000} onClose={handleCloseSetEmployeeFlowSuccess} anchorOrigin={{
                 vertical: 'bottom',
                 horizontal: 'left',
               }}>

@@ -35,14 +35,31 @@ const useStyles = makeStyles((theme) => ({
 
 
 const flow = [
+  {id: 1, process: 'Urinalysis', date: 'October 19 - 25', phase: 1,},
+  {id: 2, process: 'CBC', date: 'October 19 - 25', phase: 1,},
+  {id: 3, process: 'Liver Function Test', date: 'October 19 - 25', phase: 1,},
+  {id: 4, process: 'Eye Test', date: 'October 19 - 25', phase: 1,},
+  {id: 5, process: 'ECG', date: 'October 19 - 25', phase: 1,},
+  {id: 6, process: 'Ultrasound', date: 'October 19 - 25', phase: 1,},
+  {id: 7, process: 'Chest Xray', date: 'October 19 - 25', phase: 1,},
+  {id: 8, process: 'COHEN/HADS', date: 'October 19 - 25', phase: 1,},
+  /*
+  // phase 2
+  {id: 9, process: 'Vital Signs Monitoring', date: 'November 9 - 15'},
+  {id: 10, process: 'Physical Examination', date: 'November 9 - 15'},
+  {id: 11, process: 'Pulmonary Function Test', date: 'November 9 - 15'},
+  {id: 12, process: 'Papsmear', date: 'November 9 - 15'},
+  {id: 13, process: 'Dental Examination', date: 'November 9 - 15'},
+  */
+  /*
   {id: 1, process: 'Cohen (PSS)', phase: 1, date: 'October 12 - 16'},
-  {id: 2, process: 'Blood Extraction', phase: 1, date: 'October 12 - 16'},
-  {id: 3, process: 'Submit Urine', phase: 1, date: 'October 12 - 16'},
+  {id: 2, process: 'CBC', phase: 1, date: 'October 12 - 16'},
+  {id: 3, process: 'Urinalysis', phase: 1, date: 'October 12 - 16'},
   {id: 4, process: 'Pap Smear', phase: 1, date: 'October 12 - 16'},
   {id: 5, process: 'Eye Test', phase: 1, date: 'October 12 - 16'},
   {id: 6, process: 'ECG', phase: 1, date: 'October 12 - 16'},
-  {id: 7, process: 'Xray', phase: 1, date: 'October 12 - 16'},
-  /*
+  {id: 7, process: 'Chest - Xray', phase: 1, date: 'October 12 - 16'},
+  
   {id: 12, process: 'Vital Signs, Height, Weight', phase: 2, date: 'October 26 - 30'},
   {id: 13, process: 'Physical Exam', phase: 2, date: 'October 26 - 30'},
   {id: 14, process: 'PFT', phase: 2, date: 'October 26 - 30'},

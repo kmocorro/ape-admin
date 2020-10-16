@@ -189,12 +189,12 @@ export default function Index() {
               <>
               <SetStationComplete handleBackTohome={handleBackTohome} employeeData={employeeData} checked={checked} handleToggle={handleToggle} handleOpenSetEmployeeFlowDialogBox={handleOpenSetEmployeeFlowDialogBox} handleCloseSetEmployeeFlowDialogBox={handleCloseSetEmployeeFlowDialogBox} toggleOpenDialogFlow={toggleOpenDialogFlow}  handleSubmitStationComplete={handleSubmitStationComplete} employee_flow={employee_flow} />
              
-              <Snackbar open={openSetEmployeeFlowSuccess} autoHideDuration={3000} onClose={handleCloseSetEmployeeFlowSuccess} anchorOrigin={{
+              <Snackbar open={openSetEmployeeFlowSuccess} autoHideDuration={2000} onClose={handleCloseSetEmployeeFlowSuccess} anchorOrigin={{
                 vertical: 'bottom',
                 horizontal: 'left',
               }}>
                 <Alert onClose={handleCloseSetEmployeeFlowSuccess} severity="success">
-                  APE process flow has been successfully added!
+                  Station successfully completed!
                 </Alert>
               </Snackbar>
               </>
