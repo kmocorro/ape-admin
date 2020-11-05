@@ -79,9 +79,9 @@ export default function Index() {
 
   /// setttttttttttttttt
   const phase1_auto_checked = [1,2,3,4,7,8];
-  const phase2_auto_checked = [9,10,11,12, 13];
+  const phase2_auto_checked = [8, 9, 10, 13];
 
-  const [checked, setChecked] = useState(phase1_auto_checked);
+  const [checked, setChecked] = useState(phase2_auto_checked);
   const [toggleOpenDialogFlow, setOpenToggleDialogFlow] = useState(false);
 
   const [openSetEmployeeFlowSuccess, setOpenSetEmployeeFlowSuccess] = useState(false);
