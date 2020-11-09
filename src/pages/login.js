@@ -33,6 +33,7 @@ const useStyles = makeStyles((theme) => ({
 export default function Index() {
 
   const [ token, setToken ] = useState('');
+  console.log(token);
   const [ loginResponse, setLoginResponse ] = useState('');
   console.log(loginResponse);
 
